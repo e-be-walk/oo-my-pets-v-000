@@ -10,6 +10,10 @@ class Owner
     @@all << self
   end
 
+  def self.all
+    @@all
+  end
+
   def owner_count(owner)
     @all << owner
     @@owner_count += 1
