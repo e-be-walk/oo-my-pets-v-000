@@ -14,9 +14,8 @@ class Owner
     @@all
   end
 
-  def owner_count(owner)
-    @all << owner
-    @@owner_count += 1
+  def self.owner_count
+    @all.size
   end
 
   def self.reset_all
