@@ -14,7 +14,7 @@ class Owner
     @@all
   end
 
-  def self.owner_count
+  def self.count
     @all.size
   end
 
